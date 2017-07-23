@@ -10,10 +10,20 @@
 		57FCA5D01F1F6D2E001EC9C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA5CF1F1F6D2E001EC9C0 /* main.m */; };
 		57FCA5D31F1F6D2E001EC9C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA5D21F1F6D2E001EC9C0 /* AppDelegate.m */; };
 		57FCA5D61F1F6D2E001EC9C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA5D51F1F6D2E001EC9C0 /* ViewController.m */; };
-		57FCA5D91F1F6D2E001EC9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FCA5D71F1F6D2E001EC9C0 /* Main.storyboard */; };
 		57FCA5DB1F1F6D2E001EC9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FCA5DA1F1F6D2E001EC9C0 /* Assets.xcassets */; };
 		57FCA5DE1F1F6D2E001EC9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FCA5DC1F1F6D2E001EC9C0 /* LaunchScreen.storyboard */; };
 		57FCA5E91F1F6D2E001EC9C0 /* RevolutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA5E81F1F6D2E001EC9C0 /* RevolutTests.m */; };
+		57FCA5F51F1F72C7001EC9C0 /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA5F41F1F72C6001EC9C0 /* Router.m */; };
+		57FCA5FA1F1F9926001EC9C0 /* SearchCurrencyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA5F91F1F9926001EC9C0 /* SearchCurrencyOperation.m */; };
+		57FCA5FD1F1FA395001EC9C0 /* AsyncOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA5FC1F1FA395001EC9C0 /* AsyncOperation.m */; };
+		57FCA6021F1FB8E8001EC9C0 /* PageVCDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA6011F1FB8E8001EC9C0 /* PageVCDataSource.m */; };
+		57FCA6081F1FF0AA001EC9C0 /* ChildControllersViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA6071F1FF0AA001EC9C0 /* ChildControllersViewModel.m */; };
+		57FCA60B1F1FF320001EC9C0 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA60A1F1FF320001EC9C0 /* ChildViewController.m */; };
+		57FCA60E1F20159C001EC9C0 /* ViewControllerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA60D1F20159C001EC9C0 /* ViewControllerViewModel.m */; };
+		57FCA6131F20B869001EC9C0 /* PageVCDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA6121F20B869001EC9C0 /* PageVCDelegate.m */; };
+		57FCA6161F20CC13001EC9C0 /* TextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA6151F20CC13001EC9C0 /* TextFieldDelegate.m */; };
+		57FCA61C1F20EC25001EC9C0 /* PageViewControllerGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA61B1F20EC25001EC9C0 /* PageViewControllerGraph.m */; };
+		57FCA6201F215C7F001EC9C0 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FCA61F1F215C7F001EC9C0 /* Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +43,35 @@
 		57FCA5D21F1F6D2E001EC9C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		57FCA5D41F1F6D2E001EC9C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		57FCA5D51F1F6D2E001EC9C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		57FCA5D81F1F6D2E001EC9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57FCA5DA1F1F6D2E001EC9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57FCA5DD1F1F6D2E001EC9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57FCA5DF1F1F6D2E001EC9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57FCA5E41F1F6D2E001EC9C0 /* RevolutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevolutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FCA5E81F1F6D2E001EC9C0 /* RevolutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevolutTests.m; sourceTree = "<group>"; };
 		57FCA5EA1F1F6D2E001EC9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57FCA5F31F1F72C6001EC9C0 /* Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
+		57FCA5F41F1F72C6001EC9C0 /* Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
+		57FCA5F81F1F9926001EC9C0 /* SearchCurrencyOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCurrencyOperation.h; sourceTree = "<group>"; };
+		57FCA5F91F1F9926001EC9C0 /* SearchCurrencyOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCurrencyOperation.m; sourceTree = "<group>"; };
+		57FCA5FB1F1FA395001EC9C0 /* AsyncOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncOperation.h; sourceTree = "<group>"; };
+		57FCA5FC1F1FA395001EC9C0 /* AsyncOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncOperation.m; sourceTree = "<group>"; };
+		57FCA6001F1FB8E8001EC9C0 /* PageVCDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageVCDataSource.h; sourceTree = "<group>"; };
+		57FCA6011F1FB8E8001EC9C0 /* PageVCDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageVCDataSource.m; sourceTree = "<group>"; };
+		57FCA6061F1FF0AA001EC9C0 /* ChildControllersViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildControllersViewModel.h; sourceTree = "<group>"; };
+		57FCA6071F1FF0AA001EC9C0 /* ChildControllersViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildControllersViewModel.m; sourceTree = "<group>"; };
+		57FCA6091F1FF320001EC9C0 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		57FCA60A1F1FF320001EC9C0 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		57FCA60C1F20159C001EC9C0 /* ViewControllerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerViewModel.h; sourceTree = "<group>"; };
+		57FCA60D1F20159C001EC9C0 /* ViewControllerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerViewModel.m; sourceTree = "<group>"; };
+		57FCA6111F20B869001EC9C0 /* PageVCDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageVCDelegate.h; sourceTree = "<group>"; };
+		57FCA6121F20B869001EC9C0 /* PageVCDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageVCDelegate.m; sourceTree = "<group>"; };
+		57FCA6141F20CC13001EC9C0 /* TextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldDelegate.h; sourceTree = "<group>"; };
+		57FCA6151F20CC13001EC9C0 /* TextFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldDelegate.m; sourceTree = "<group>"; };
+		57FCA61A1F20EC25001EC9C0 /* PageViewControllerGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewControllerGraph.h; sourceTree = "<group>"; };
+		57FCA61B1F20EC25001EC9C0 /* PageViewControllerGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewControllerGraph.m; sourceTree = "<group>"; };
+		57FCA61E1F215C7F001EC9C0 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		57FCA61F1F215C7F001EC9C0 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		57FCA6211F2161FD001EC9C0 /* UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +92,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		579A59321F2546BA00729780 /* Buseness Logic layer */ = {
+			isa = PBXGroup;
+			children = (
+				57FCA61E1F215C7F001EC9C0 /* Controller.h */,
+				57FCA61F1F215C7F001EC9C0 /* Controller.m */,
+				57FCA61A1F20EC25001EC9C0 /* PageViewControllerGraph.h */,
+				57FCA61B1F20EC25001EC9C0 /* PageViewControllerGraph.m */,
+			);
+			name = "Buseness Logic layer";
+			sourceTree = "<group>";
+		};
 		57FCA5C21F1F6D2E001EC9C0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,9 +126,10 @@
 			children = (
 				57FCA5D11F1F6D2E001EC9C0 /* AppDelegate.h */,
 				57FCA5D21F1F6D2E001EC9C0 /* AppDelegate.m */,
-				57FCA5D41F1F6D2E001EC9C0 /* ViewController.h */,
-				57FCA5D51F1F6D2E001EC9C0 /* ViewController.m */,
-				57FCA5D71F1F6D2E001EC9C0 /* Main.storyboard */,
+				57FCA5FF1F1FAD3C001EC9C0 /* Operations */,
+				57FCA5F61F1F72CD001EC9C0 /* Router */,
+				579A59321F2546BA00729780 /* Buseness Logic layer */,
+				57FCA5F71F1F7496001EC9C0 /* Presentation Layer */,
 				57FCA5DA1F1F6D2E001EC9C0 /* Assets.xcassets */,
 				57FCA5DC1F1F6D2E001EC9C0 /* LaunchScreen.storyboard */,
 				57FCA5DF1F1F6D2E001EC9C0 /* Info.plist */,
@@ -109,6 +153,72 @@
 				57FCA5EA1F1F6D2E001EC9C0 /* Info.plist */,
 			);
 			path = RevolutTests;
+			sourceTree = "<group>";
+		};
+		57FCA5F61F1F72CD001EC9C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				57FCA5F31F1F72C6001EC9C0 /* Router.h */,
+				57FCA5F41F1F72C6001EC9C0 /* Router.m */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		57FCA5F71F1F7496001EC9C0 /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				57FCA61D1F20F09C001EC9C0 /* Delegates */,
+				57FCA6101F20AF10001EC9C0 /* View Controllers */,
+				57FCA60F1F20AEFE001EC9C0 /* View Models */,
+			);
+			name = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		57FCA5FF1F1FAD3C001EC9C0 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				57FCA5F81F1F9926001EC9C0 /* SearchCurrencyOperation.h */,
+				57FCA5F91F1F9926001EC9C0 /* SearchCurrencyOperation.m */,
+				57FCA5FB1F1FA395001EC9C0 /* AsyncOperation.h */,
+				57FCA5FC1F1FA395001EC9C0 /* AsyncOperation.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		57FCA60F1F20AEFE001EC9C0 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				57FCA60C1F20159C001EC9C0 /* ViewControllerViewModel.h */,
+				57FCA60D1F20159C001EC9C0 /* ViewControllerViewModel.m */,
+				57FCA6061F1FF0AA001EC9C0 /* ChildControllersViewModel.h */,
+				57FCA6071F1FF0AA001EC9C0 /* ChildControllersViewModel.m */,
+			);
+			name = "View Models";
+			sourceTree = "<group>";
+		};
+		57FCA6101F20AF10001EC9C0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57FCA6211F2161FD001EC9C0 /* UI.h */,
+				57FCA5D41F1F6D2E001EC9C0 /* ViewController.h */,
+				57FCA5D51F1F6D2E001EC9C0 /* ViewController.m */,
+				57FCA6001F1FB8E8001EC9C0 /* PageVCDataSource.h */,
+				57FCA6011F1FB8E8001EC9C0 /* PageVCDataSource.m */,
+				57FCA6091F1FF320001EC9C0 /* ChildViewController.h */,
+				57FCA60A1F1FF320001EC9C0 /* ChildViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		57FCA61D1F20F09C001EC9C0 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				57FCA6111F20B869001EC9C0 /* PageVCDelegate.h */,
+				57FCA6121F20B869001EC9C0 /* PageVCDelegate.m */,
+				57FCA6141F20CC13001EC9C0 /* TextFieldDelegate.h */,
+				57FCA6151F20CC13001EC9C0 /* TextFieldDelegate.m */,
+			);
+			name = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +305,6 @@
 			files = (
 				57FCA5DE1F1F6D2E001EC9C0 /* LaunchScreen.storyboard in Resources */,
 				57FCA5DB1F1F6D2E001EC9C0 /* Assets.xcassets in Resources */,
-				57FCA5D91F1F6D2E001EC9C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,8 +322,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FCA61C1F20EC25001EC9C0 /* PageViewControllerGraph.m in Sources */,
+				57FCA5FD1F1FA395001EC9C0 /* AsyncOperation.m in Sources */,
+				57FCA5F51F1F72C7001EC9C0 /* Router.m in Sources */,
+				57FCA5FA1F1F9926001EC9C0 /* SearchCurrencyOperation.m in Sources */,
+				57FCA6131F20B869001EC9C0 /* PageVCDelegate.m in Sources */,
 				57FCA5D61F1F6D2E001EC9C0 /* ViewController.m in Sources */,
 				57FCA5D31F1F6D2E001EC9C0 /* AppDelegate.m in Sources */,
+				57FCA60E1F20159C001EC9C0 /* ViewControllerViewModel.m in Sources */,
+				57FCA6081F1FF0AA001EC9C0 /* ChildControllersViewModel.m in Sources */,
+				57FCA6021F1FB8E8001EC9C0 /* PageVCDataSource.m in Sources */,
+				57FCA6201F215C7F001EC9C0 /* Controller.m in Sources */,
+				57FCA60B1F1FF320001EC9C0 /* ChildViewController.m in Sources */,
+				57FCA6161F20CC13001EC9C0 /* TextFieldDelegate.m in Sources */,
 				57FCA5D01F1F6D2E001EC9C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,14 +358,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		57FCA5D71F1F6D2E001EC9C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				57FCA5D81F1F6D2E001EC9C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		57FCA5DC1F1F6D2E001EC9C0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +524,7 @@
 				57FCA5EF1F1F6D2E001EC9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57FCA5F01F1F6D2E001EC9C0 /* Build configuration list for PBXNativeTarget "RevolutTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +533,7 @@
 				57FCA5F21F1F6D2E001EC9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

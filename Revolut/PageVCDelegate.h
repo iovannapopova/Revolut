@@ -1,0 +1,19 @@
+//
+//  PageVCDelegate.h
+//  Revolut
+//
+//  Created by Iovanna Popova on 20/07/2017.
+//  Copyright © 2017 IP. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "Controller.h"
+
+@interface PageVCDelegate : NSObject<UIPageViewControllerDelegate>
+
+@property (nonatomic, weak) id<CurrencySelectionDelegate> selectionDelegate;
+
+- (instancetype)initWithIndexType:(IndexType)type;
+
+@end
