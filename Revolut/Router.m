@@ -41,7 +41,7 @@
         _bottomPageVCGraph.delegate.selectionDelegate = _controller;
         _pageVCGraph.textFieldDelegate.amountDelegate = _controller;
         _viewController.balanceDelegate = _controller;
-        [_controller startUpdatingExchangeRateWithTimeInterval:3000.0];
+        [_controller startUpdatingExchangeRateWithTimeInterval:30.0];
     }
     return self;
 }
